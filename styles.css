@@ -220,3 +220,13 @@ footer nav ul i {
 }
 
   
+.greeting {
+ color: red;
+ font-family: Helvetica;
+ font-size: large;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}

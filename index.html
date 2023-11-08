@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script   
+        src="https://kit.fontawesome.com/d8ae4d585c.js" crossorigin="anonymous">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&family=PT+Sans:ital@1&family=Playpen+Sans:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <header id="encabezado">
+            <a href="index.html">Bienvenidos<i class="fa-solid fa-face-smile"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li>Inicio</li>
+                    <li>Acerca de Mi</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>Acerca de Mi</h2>
+                    <p class="parrafo1">
+                        ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+                    </p>
+                    <p class="parrafo2">
+                        Hola me llamo William Madrigal, soy de Colombia. Me encanta aprender nuevas cosas y compartirlas con los demas, soy apasionado por el deporte y la tecnologia. En este mundo de la programacion espero poder darte mi conocimiento para que asi, juntos creemos un mundo fascinante e innovador para la presente y futura generacion.
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/Photo.png" alt="imagen personal"/> 
+                </div>
+            </section>
+            
+            <section class="seccion-2">
+                <img src="img/Estadio.jpg" alt="imagen de carrusel">
+            </section>
+        </main>
+
+        <main class="hobbies">
+            <h2>Hobbies</h2>
+            <div class="elemento">
+                <h4>Deporte</h4>
+                <img src="img/deporte.jpg">
+                <p>El deporte es la base de todo buen estilo de vida. cada persona que se interesa por algun deporte esta adquiriendo compromiso, responsabilidad, constancia y disciplina. Este estilo de vida nos demuestra que para conseguir algo hay que ser comprometidos y tener un enfoque de vida.</p>
+            
+        
+                <h4>Pelicula</h4>
+                <img src="img/cine.jpg">
+                <p>El mundo del cine nos ofrece una salida a la monotonia de la vida ya que nos da un escape para nuestra mente y cuerpo. una buena pelicula  y un buen guion nos cautiva al momento de elegir un buen filme</p>
+            </div>
+        </main>
+
+        <footer>
+
+            <form action="" method="get" class="formulario">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+        
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                    />
+                  </div>
+        
+                  <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                  </div>
+        
+                  <div class="form-row">
+                    <button>Enviar</button>
+                  </div>
+            </form>
+
+            <h3>Redes Sociales</h3>
+            <nav>
+                <ul>
+                    <a href="https://www.facebook.com/"><li>Facebook</li></a>
+                    <li>twitter</li>
+                    <a href="https://web.whatsapp.com/"><li>Whatsapp</li></a>
+                    <i class="fa-solid fa-face-smile"></i>
+                </ul>
+            </nav>
+            
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <!--defer-->
+</body>
+</html>
